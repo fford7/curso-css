@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 80vw; /* es conveniente usar medidas relativas tipo vw o em para hacerlo mas responsive */
+    height: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(85, 102, 102);
+    position: fixed;
+    
+}
+
+main {
+    padding-top: 75px;
+}

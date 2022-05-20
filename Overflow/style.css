@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+div {
+    margin: auto;
+    margin-top: 50px;
+    width: 320px;
+    height: 350px;
+    border: 4px solid red;
+    background: grey;
+    overflow: auto; /* el overflow sirve para ver como queremos que se vea el texto que sobresale de la caja */
+}

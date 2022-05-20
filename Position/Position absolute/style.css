@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 80vw; /* es conveniente usar medidas relativas tipo vw o em para hacerlo mas responsive */
+    height: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(85, 102, 102);
+}
+
+div {
+    position: absolute;
+    display: block; /* los elementos pueden estar en bloque o en linea, cuando estan en bloque ocupan todo el congtenedor cuando estan en linea solo una porcion */
+    background: rgb(18, 99, 58);
+}
+
+div div {
+    height: 100px;
+    width: 100px;
+    background: yellow;
+}
+.container {
+    margin: 50px auto;
+    position: relative; /* si esta en position static las cajas toman como referencia el viewport y no el container por eso lo pongo en relative */
+    border: 4px solid salmon;
+    height: 450px;
+    width: 450px;
+}
+.caja1 {
+    right: 0;
+    bottom: 0;
+}
+.caja2 {
+    right: 0;
+}
+.caja3 {
+    top: 0;
+}
+.caja4 {
+    bottom: 0;   
+}

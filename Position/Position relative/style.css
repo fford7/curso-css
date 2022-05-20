@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    width: 80vw; /* es conveniente usar medidas relativas tipo vw o em para hacerlo mas responsive */
+    height: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background-color: rgb(85, 102, 102);
+}
+
+div {
+    width: 120px;
+    height: 120px;
+    display: block; /* los elementos pueden estar en bloque o en linea, cuando estan en bloque ocupan todo el congtenedor cuando estan en linea solo una porcion */
+    background: yellow;
+}
+
+.caja1 {
+    background-color: blue;
+}
+.caja2 {
+    background-color: rgb(50, 124, 75);
+    position: relative; /* Me permite correr la caja a cualquier lugar usando top y left */
+    top: 80px;
+    left: 10px;
+    z-index: 1; /* la pone a la caja dos por encima de la 1 porque el z index por defecto es 0  */
+}
+.caja3 {
+    background-color: rgb(116, 87, 45);
+    position: relative;
+}
+.caja4 {
+    background-color: rgb(59, 26, 63);
+}
